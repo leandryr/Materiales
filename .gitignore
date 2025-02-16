@@ -26,3 +26,7 @@
 *.swp
 *.swo
 .DS_Store
+
+# Configuración sensible
+config/secrets.yml
+config/secrets/*

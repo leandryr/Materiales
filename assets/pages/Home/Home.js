@@ -424,7 +424,6 @@ const handleClickEditDocumentado = () => {
                             <EditarRegistro
                             credentials = {credentials}
                             registro = {registro}
-                            credentials = {credentials}
                             localidades = {localidades}
                             transportistas = {transportistas}
                             areas = {areas}
