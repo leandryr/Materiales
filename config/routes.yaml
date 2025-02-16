@@ -1,0 +1,3 @@
+home_reclamo:
+    path: /home/reclamo
+    controller: App\Controller\HomeController::reclamo

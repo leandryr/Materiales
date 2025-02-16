@@ -1,0 +1,83 @@
+.cargarExcel {
+  width: 100%;
+  border-top: 0.5px solid #d1d1d1;
+
+  .label {
+    font-size: 1rem;
+    color: #c5c5c5;
+    margin-top: 42px;
+  }
+
+  .upload-content {
+    margin-top: 30px;
+
+    .input {
+      width: 549px;
+    }
+
+    .space {
+      width: 20px;
+    }
+
+    .space-buttons {
+      display: inline-block;
+      width: 40px;
+    }
+  }
+}
+
+.dialogExcel {
+  width: 625px;
+  height: 336px;
+
+  &.bt-red {
+    border-top: 31px #ff2626 solid;
+  }
+
+  &.bt-green {
+    border-top: 31px #6aab20 solid;
+  }
+
+  .titleDialog {
+    padding-top: 70px;
+    padding-bottom: 0;
+
+    .MuiTypography-h6 {
+      font-size: 35px;
+      color: #192e47;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+
+  .contentDialog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .content-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        width: 109px;
+        height: 109px;
+      }
+    }
+
+    .loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .MuiDialogActions-root {
+    justify-content: center;
+
+    button {
+      height: 56px;
+      border-radius: 30px;
+    }
+  }
+}

@@ -1,0 +1,178 @@
+.reporteDocumentado {
+  margin: 4.8125rem;
+  box-sizing: border-box;
+  position: relative;
+  border-top: 0.5px solid #d1d1d1;
+
+  .row {
+    width: 100%;
+    display: flex;
+    margin-top: 1.5625rem;
+    padding-bottom: 0.25rem;
+
+    .column {
+      display: flex;
+      box-sizing: border-box;
+      width: 50%;
+      margin-right: 1.25rem;
+      justify-content: flex-start;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .name {
+        font-size: 1rem;
+        color: #192e47;
+        font-weight: bold;
+      }
+
+      .date {
+        font-size: 1rem;
+        color: #707070;
+        font-weight: normal !important;
+      }
+
+      .miniTitle {
+        color: #192e47;
+        font-size: 0.875rem;
+        font-weight: bold;
+      }
+
+      .miniValue {
+        color: #707070;
+        font-size: 0.875rem;
+        border-bottom: 0.5px solid #d1d1d1;
+      }
+    }
+
+    .direction {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content-right {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .content-icon {
+      display: flex;
+      justify-content: space-between;
+
+      svg {
+        width: 1.5rem;
+        height: 1rem;
+        margin-right: 0.625rem;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .column-right {
+      display: flex;
+      box-sizing: border-box;
+      width: 24%;
+      margin-right: 1.25rem;
+      justify-content: flex-end;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    .column-lg {
+      display: flex;
+      box-sizing: border-box;
+      width: 75%;
+      margin-right: 1.25rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .miniTitle {
+        color: #192e47;
+        font-size: 0.875rem;
+        font-weight: bold;
+      }
+
+      .miniValue {
+        color: #707070;
+        font-size: 0.875rem;
+        border-bottom: 0.5px solid #d1d1d1;
+      }
+    }
+
+    .column-sm {
+      display: flex;
+      box-sizing: border-box;
+      width: 24%;
+      margin-right: 1.25rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      .number {
+        font-size: 1.5625rem;
+        color: #346298;
+
+        .numberLabel {
+          font-weight: bold;
+        }
+      }
+
+      .miniTitle {
+        color: #192e47;
+        font-size: 0.875rem;
+        font-weight: bold;
+      }
+
+      .miniValue {
+        color: #707070;
+        font-size: 0.875rem;
+        border-bottom: 0.5px solid #d1d1d1;
+      }
+    }
+
+    .button {
+      width: 10.25rem;
+    }
+  }
+
+  .border {
+    border-bottom: 0.5px solid #d1d1d1;
+  }
+
+  .space {
+    width: 1.25rem;
+  }
+
+  .content-icon-header {
+    width: 104%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: -34px;
+    top: -48px;
+    font-size: 1.25rem;
+    color: #192e47;
+    cursor: pointer;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 0.625rem;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+    }
+  }
+}

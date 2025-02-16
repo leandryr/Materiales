@@ -1,0 +1,100 @@
+.reporteSemanal {
+    width: 100%;
+    &:first-child {
+        border-top: 0.5px solid #D1D1D1;
+    }
+    .rowHeader {
+        display: flex;
+        width: 100%;
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: #192e47;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+        .column {
+            width: 100%;
+        }
+        .cl-350 {
+            min-width: 28%;
+        }
+        .cl-250 {
+            min-width: 16%;
+        }
+    }
+    .row {
+        display: flex;
+        width: 100%;
+        border: 1px solid #b2b2b2;
+        border-radius: 0.625rem;
+        height: 3.5rem;
+        align-items: center;
+        margin: 0.9375rem 0;
+        font-size: 1rem;
+        color: #707070;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+        cursor: pointer;
+        .column {
+            width: 100%;
+        }
+        .content-icon {
+            display: flex;
+            justify-content: space-between;
+            svg {
+                width: 1rem;
+                height: 1rem;
+                margin-right: 0.625rem;
+            }
+            span {
+                display: flex;
+                align-items: center;
+            }
+        }
+        .cl-350 {
+            min-width: 28%;
+        }
+        .cl-250 {
+            min-width: 16%;
+        }
+    }
+
+    .rowPrincipal {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        font-size: 1rem;
+        margin-top: 2.5rem;
+        margin-bottom: 1.9375rem;
+        .column {
+            width: 37%;
+            .title {
+                font-size: 1.875rem;
+                color: #192e47;
+                font-weight: bold;
+            }
+            .subtitle {
+                font-size: 0.9375rem;
+                color: #ff8d36;
+            }
+        }
+        .column-sm {
+            width: 23%;
+        }
+        .column-lg {
+            width: 40%;
+        }
+        .content-right {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .content-center {
+            display: flex;
+            justify-content: center;
+        }
+        .space {
+            width: 1.25rem;
+        }
+    }
+}

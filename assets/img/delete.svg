@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21.882" height="25.007" viewBox="0 0 21.882 25.007">
+  <defs>
+    <style>
+      .delete {
+        fill: #3a72b5;
+      }
+    </style>
+  </defs><path class="delete" d="M64.444,144.519a3.129,3.129,0,0,0,3.126,3.126h12.5a3.129,3.129,0,0,0,3.126-3.126v-15.63H64.444Z" transform="translate(-62.881 -122.637)"/><path class="delete" d="M46.289,1.563V0H40.037V1.563H32.222V4.689H54.1V1.563Z" transform="translate(-32.222)"/></svg>

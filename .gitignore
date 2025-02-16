@@ -1,0 +1,28 @@
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.*.local
+.env.d
+
+# Ignorar dependencias de Composer y logs
+/var/
+/vendor/
+/node_modules/
+/var/cache/
+/var/log/
+/var/sessions/
+
+# Ignorar archivos específicos de Symfony
+/public/build/
+/public/uploads/
+/public/bundles/
+/public/media/
+/config/jwt/private.pem
+/config/jwt/public.pem
+
+# Ignorar configuraciones de IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store

@@ -1,0 +1,162 @@
+.historialUsuarios {
+    width: 100%;
+    border-top: 0.5px solid #d1d1d1;
+    .rowHeader {
+        display: flex;
+        width: 100%;
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: #192e47;
+        padding-left: 1rem;
+        box-sizing: border-box;
+        .column {
+            width: 100%;
+        }
+        .cl-50 {
+            max-width: 100px;
+        }
+    }
+    .row {
+        display: flex;
+        width: 100%;
+        border: 1px solid #b2b2b2;
+        border-radius: 10px;
+        height: 3.5rem;
+        align-items: center;
+        margin: 0.9375rem 0;
+        font-size: 0.875rem;
+        color: #707070;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+        .column {
+            width: 100%;
+        }
+        .content-icon {
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            svg {
+                width: 25px;
+                height: 25px;
+            }
+        }
+        .cl-50 {
+            max-width: 105px;
+        }
+    }
+
+    .rowPrincipal {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        font-size: 1rem;
+        margin-top: 40px;
+        margin-bottom: 31px;
+        .column {
+            width: 100%;
+            .title {
+                font-size: 30px;
+                color: #192e47;
+                font-weight: bold;
+            }
+            .subtitle {
+                font-size: 15px;
+                color: #ff8d36;
+            }
+        }
+        .content-right {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .content-center {
+            display: flex;
+            justify-content: center;
+        }
+        .space {
+            width: 20px;
+        }
+    }
+}
+
+.dialog {
+    width: 1033px;
+    height: 401px;
+    border-top: 31px #ff2626 solid;
+    .dot {
+        height: 132px;
+        width: 132px;
+        background-color: #ff2626;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 210px;
+        left: 46%;
+        svg {
+            width: 41px;
+            height: 47px;
+        }
+    }
+    .titleDialog {
+        padding-top: 70px;
+        padding-bottom: 0;
+        .MuiTypography-h6 {
+            font-size: 35px;
+            color: #192e47;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+    .contentDialog {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 35px;
+        color: #346298;
+        text-align: center;
+    }
+    .actions {
+        display: none;
+    }
+    .formContent {
+        display: none;
+    }
+
+    .MuiDialogActions-root {
+        justify-content: center;
+        button {
+            height: 56px;
+            border-radius: 30px;
+        }
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        margin-top: 25px;
+        .column {
+            display: flex;
+            box-sizing: border-box;
+            width: 50%;
+            margin-right: 20px;
+            justify-content: center;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        .button {
+            width: 164px;
+        }
+    }
+    .textField {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1397px) {
+    .dialog {
+        .dot {
+            top: 10%;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{# templates/home/historial.html.twig #}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Historial</h1>
+    <p>Página de historial de registros.</p>
+{% endblock %}

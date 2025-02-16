@@ -1,0 +1,68 @@
+.graficas {
+  width: 100%;
+  border-top: 0.5px solid #d1d1d1;
+  display: flex;
+
+  .doughnut {
+    width: 25%;
+    margin-top: 2rem;
+
+    .contenedor {
+      width: 50%;
+      margin: 0 auto;
+      justify-content: center;
+
+      .cantidad {
+        font-size: 1rem;
+        color: #192E47;
+        margin: 0.8rem 1.5rem 0.5rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .wrapper {
+    width: 75%;
+
+    .row {
+      width: 100%;
+      display: flex;
+      margin-top: 2rem;
+
+      .column {
+        display: flex;
+        box-sizing: border-box;
+        width: 33%;
+        margin-right: 20px;
+        justify-content: center;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        .monto {
+          font-size: 1rem;
+          color: #192E47;
+          font-weight: bold;
+          margin: 0.5rem 0;
+        }
+
+        .cantidad {
+          font-size: 1rem;
+          color: #192E47;
+          margin: 0.8rem 0 0.5rem;
+        }
+
+        .canto {
+          font-size: 1rem;
+          color: #192E47;
+          margin: 0.8rem 0 0.5rem;
+        }
+
+        .graph {
+          width: 25%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.editar_documentado {
+  margin: 4.8125rem;
+  box-sizing: border-box;
+  position: relative;
+
+  .content-icon-header {
+    width: 104%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: -34px;
+    top: -48px;
+    font-size: 1.25rem;
+    color: #192e47;
+    cursor: pointer;
+
+    svg {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin-right: 0.625rem;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .formSiniestros {
+    width: 100%;
+    border-top: 0.5px solid #D1D1D1;
+
+    .row {
+      width: 100%;
+      display: flex;
+      margin-top: 25px;
+
+      .column {
+        display: flex;
+        box-sizing: border-box;
+        width: 50%;
+        margin-right: 20px;
+        justify-content: center;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .column-lg {
+        display: flex;
+        box-sizing: border-box;
+        width: 75%;
+        margin-right: 20px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .column-sm {
+        display: flex;
+        box-sizing: border-box;
+        width: 24%;
+        margin-right: 20px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+
+      .button {
+        width: 164px;
+      }
+
+      .column-max {
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        margin-right: 20px;
+        justify-content: center;
+
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+
+    .textField {
+      width: 100%;
+    }
+  }
+}
